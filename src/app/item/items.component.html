@@ -1,0 +1,14 @@
+
+<ActionBar title="Fetch App Exercise">
+</ActionBar>
+
+<GridLayout tkToggleNavButton>
+    <RadListView [items]="displayMap" [groupingFunction]="myGroupingFunc">
+        <ng-template tkListItemTemplate let-item="item">
+            <StackLayout orientation="vertical" class="listItem">
+                <Label class="nameLabel" [text]="item.name" ></Label>
+                <StackLayout class="separator"></StackLayout>
+            </StackLayout>
+        </ng-template>
+    </RadListView>
+</GridLayout>

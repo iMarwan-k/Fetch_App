@@ -1,0 +1,14 @@
+.listItem {
+    text-align: center;
+}
+
+.nameLabel {
+    padding: 10;
+    font-size: 13;
+}
+.separator {
+    height: 0.5;
+    background-color: gray;
+    opacity: 0.3;
+    width: 90%;
+}
